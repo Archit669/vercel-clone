@@ -1,0 +1,21 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@azure/arm-appcontainers": "^2.1.0",
+    "@azure/identity": "^4.5.0",
+    "express": "^4.21.2",
+    "ioredis": "^5.4.2",
+    "random-word-slugs": "^0.1.7",
+    "redis": "^4.7.0",
+    "socket.io": "^4.8.1"
+  }
+}
